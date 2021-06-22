@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(175, 174, 174);
+                       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.calculator{
+    background: dimgray;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: inset 2px 2px 3px #a1a1a1;
+
+}
+
+.result{
+    background-color: whitesmoke;
+    color:slategray;
+    width: 90%;
+    height: 55px;
+    margin: 10px 20px 15px 5px;
+    text-align: right;
+    line-height: 55px;
+    font-size: 39px;
+    padding-right: 20px;
+    overflow: hidden;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5), inset 0px 2px 0 gray;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+    background-color: #272727;
+    padding: 10px;
+    width: 15%;
+    float: left;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 3px #a1a1a1;
+}
+
+ul li:active{
+    position: relative;
+    top: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+ul li:nth-child(16){
+    height: 90px;
+    line-height: 90px;
+    
+}
+
+ul li:last-child{
+    margin-top: -17%;
+    width: 65%;
+    height: 26px;
+    line-height: 26px;
+}
+
+.signature{
+    color:seashell;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    right: 5px
+    
+}
